@@ -1,0 +1,26 @@
+.familypic{
+    border: 2 px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+}
+.picture{
+    margin-left: 350px;
+    width: 500px;
+    border: solid black 2px ;
+}
+p{
+    color: green;
+    font-weight: bold;
+    font-family: san serif;
+    font-style: italic;
+    border-style: dashed; 
+}
+.attributes{
+    color: blue;
+    font-style: italic;
+    font-family: arial;
+    font-weight: bold;
+    border-style: solid;
+    background-color:lightgrey;
+}
