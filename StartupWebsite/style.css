@@ -1,0 +1,10 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+table, th, td{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+}
