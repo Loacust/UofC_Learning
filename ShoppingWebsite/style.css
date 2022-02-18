@@ -1,0 +1,49 @@
+.jumbotron{
+    border: 5px black solid;
+    min-width: auto;
+    text-align: center;
+    
+    
+}
+#logo{
+    font-family:'Redressed', cursive; 
+    font-size: medium;
+}
+@media (min-width:900px){
+.container-fluid:hover{
+    background-color: yellow;
+}}
+@media (max-width:900px) and (min-width:640px){
+.container-fluid:hover{
+    background-color: blueviolet;
+}}
+
+.footer{
+    border: black 5px solid;
+}
+@media (max-width:640px){
+    .container-fluid:hover{
+        background-color: red;
+    }
+
+}
+
+@media (min-width:400px){
+    .card-group {
+         display: flex;
+         flex-flow: row wrap;
+      }}
+.responsive{
+    width: 100%;
+    height:auto;
+}
+@media (min-width: 400px){
+.card-group>.card:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}}
+@media (min-width: 400px){
+.card-group>.card {
+    flex: 1 0 0%;
+    margin-bottom: 0;
+}}
