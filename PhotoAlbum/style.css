@@ -1,0 +1,36 @@
+#Jumbo{
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.byoh.in%2Fwp-content%2Fuploads%2F2016%2F04%2FModern-wedding-album-ideas11.jpg&f=1&nofb=1');
+    color: black;
+    text-align: center;
+}
+.gibberish{
+    margin: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h2{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+#Jumbo1{
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.byoh.in%2Fwp-content%2Fuploads%2F2016%2F04%2FModern-wedding-album-ideas11.jpg&f=1&nofb=1');
+    color: black;
+    text-align: center;
+}
+#Jumbo2{
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.byoh.in%2Fwp-content%2Fuploads%2F2016%2F04%2FModern-wedding-album-ideas11.jpg&f=1&nofb=1');
+    color: black;
+    text-align: center;
+}
+.headers{
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+}
+#formContainer{
+    margin-top: 100px;
+    border: black solid 4px;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+}
