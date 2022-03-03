@@ -13,7 +13,7 @@ let students = [
 app.post('/', function(req,res){
     let newStudent = req.body;
     students.push(newStudent);
-    res.redirect('/'); //redirect to the GET route
+    res.redirect([200],'/'); //redirect to the GET route
 });
 
 app.get('/',function(req,res){
