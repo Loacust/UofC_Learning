@@ -1,0 +1,11 @@
+<p>The total number of individuals in the hospital is {{getCount()}}.</p>
+<H1>Their names are:</H1>
+<div *ngFor = 'let Doc of doctors'>
+   {{Doc.name}} {{Doc.specialization}} 
+</div>
+
+<div *ngFor = 'let Pat of patients'>
+   {{Pat.name}}{{Pat.illness}}
+</div>
+
+<router-outlet></router-outlet>
